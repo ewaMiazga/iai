@@ -1,0 +1,6 @@
+Zadanie 1a (3 pkt)
+Celem zadania jest rozwiązanie problemu plecakowego dwoma metodami - brute force oraz według zadanej heurystyki. Należy zaimplementować metody klasy KnapSack - solve_knapsack_brute_force oraz solve_knapsack_pw_ratio. Poprzez rozwiązanie problemu rozumiemy podanie które przedmioty (indeksy w tablicy) należy spakować do plecaka oraz jaka jest sumaryczna wartość i masa plecaka. Punktacja wygląda następująco:
+
+Rozwiązanie problemu metodą brute force. Podpowiedź: do wygenerowania wszystkich permutacji można użyć funkcji product z biblioteki itertools - 1.5 pkt
+Rozwiązanie problemu według heurystyki - do plecaka pakujemy przedmioty według stosunku wartości do wagi - 1 pkt
+Dla metody brute force proszę wygenerować wykres zależności czasu wykonywania metody od liczby elementów w tablicach weights i profits (do obu tablic należy stopniowo dopisywać po jednym elemencie, np. 10-krotnie, wartości elementów nie mają znaczenia). Proszę również odpowiedzieć na pytania (w osobnej komórce tekstowej) - czy obie metody mają takie same rozwiązania? Jakie są Pani / Pana wnioski? - 0.5 pkt

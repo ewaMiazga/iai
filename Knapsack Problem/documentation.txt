@@ -1,0 +1,14 @@
+Rozwiązania obliczone przez algortymy różnią się.
+Przegląd brute force wskazał że powinniśmy wybrać przemioty o indeksach 1 i 2, 
+natomiast ten wykorzystujący heurystykę 1 i 3. 
+
+Obserwując wartości profitu jakie możemy uzyskać [dla tego zestawu danych:
+                                                  brute_force: 17,
+                                                  pw_ratio:    14]
+należy wnioskować, że pierwszy algorytm wskazuje najlepszy możliwy wybór.
+Heurystyka natomiast nie zawsze wskaże najlepsze rozwiązanie, co zostało
+udowodnione w powyższym przykładzie.
+
+Jednakże heurystyka jest znacznie lepszym wyborem dla większej ilości przedmiotów,
+ponieważ jej wydajność możemy szacować na od nlogn do n^2. Natomiast dla
+pierwszego algorytmu zawsze będzie to 2^n
